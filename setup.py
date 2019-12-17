@@ -1,4 +1,4 @@
-import setuptools
+import os
 from setuptools import setup
 
 with open("README.md", "r") as fh:
@@ -9,7 +9,7 @@ setup(
         "requests"
     ],
     name="meilisearch",  # Replace with your own username
-    version="0.0.7",
+    version="0.8.1",
     author="Charlotte Vermandel",
     author_email="charlotte@meilisearch.com",
     description="The python client for MeiliSearch API.",
